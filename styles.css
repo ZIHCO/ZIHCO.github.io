@@ -3,5 +3,5 @@ h1, p {
 }
 
 body {
-	background-image: url(images/background.webp);
+	background-image: url("images/background.webp");
 }
