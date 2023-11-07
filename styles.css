@@ -7,6 +7,6 @@ body {
 	object-fit: cover;
 }
 
-p {
+h1, p {
 	margin: 0 0;
 }
