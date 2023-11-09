@@ -60,5 +60,5 @@ nav {
 }
 
 li > a {
-	color: #ffffff;
+	color: inherit;
 }
