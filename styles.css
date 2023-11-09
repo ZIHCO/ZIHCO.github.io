@@ -37,3 +37,11 @@ nav > ul {
 	display: flex;
 	justify-content: evenly-space;
 }
+
+h1, h2 {
+	font-family: Verdana San-serif;
+}
+
+h2 {
+	border-bottom: 4px solid #dfdfe2;
+}
