@@ -74,6 +74,7 @@ nav > li:hover {
 
 nav > ul {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: evenly-space;
 	height: 100%;
 	margin-block: 0;
