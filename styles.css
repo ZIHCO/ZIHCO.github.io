@@ -34,8 +34,11 @@ header p {
 }
 
 nav > ul {
-	display: flex;
+	display: block;
 	justify-content: evenly-space;
+	color: #dfdfe2;
+	margin: 0 0.2rem;
+	padding: 0.2rem;
 }
 
 h1, h2 {
