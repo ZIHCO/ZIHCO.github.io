@@ -71,7 +71,7 @@ nav {
 	height: 50px;
 }
 
-nav > li:hover {
+nav li:hover {
 	color: #dfdfe2;
 	background-color: #1b1b32;
 	cursor: pointer;
