@@ -18,9 +18,17 @@ header {
 	height: 50px;
 	background-color: #0a0a23;
 	display: flex;
+	margin: 0 0;
 }
 
 header p {
 	margin: 0 0;
 	color: #ffffff;
+}
+
+#logo {
+	width: max(100px, 18vw);
+	background-color: #0a0a23;
+	aspect-ratio: 35 / 4;
+	padding: 0.4rem;
 }
