@@ -39,7 +39,8 @@ nav > ul {
 }
 
 nav > ul > li {
-	color: #dfdfe2;
+	background-color: #dfdfe2;
+	color: #1b1b32;
 	margin: 0 0.2rem;
 	padding: 0.2rem;
 	display: block;
@@ -60,5 +61,11 @@ nav {
 }
 
 li > a {
+	text-decoration: none;
 	color: inherit;
+}
+
+nav > li:hover {
+	color: #dfdfe2;
+	background-color: #1b1b32;
 }
