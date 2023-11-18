@@ -2,13 +2,16 @@
 <HTML lang="en">
   <HEAD>
     <LINK href="styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <META charset="UTF-8" />
     <META name="viewport" content="width=device-width, initial-scale=1.0" />
     <TITLE>TestMaker</TITLE />
   </HEAD>
   <BODY>
     <header>
-      <img id="logo" src="images/TestMaker.svg">
+      <div class="logo">
+        <img src="images/TestMaker.svg">
+      </div>
       <div class="project_name">
         <H1>TestMaker</H1>
         <P>for making and taking tests</P>
@@ -16,15 +19,55 @@
       <nav>
 	<ul>
 	  <li><a href="#my_project">My Project</a></li>
-	  <li><a href="#info">INFO</a></li>
+	  <li><a href="#features">Features</a></li>
 	  <li><a href="#about">About</a></li>
 	</ul>
       </nav>
     </header>
     <main>
-      <section id="my_project"></section>
-      <section id="info"></section>
-      <section id="about"></section>
+      <section class="cover-img intro">
+	<div class="intro-text">
+	  <H2>Welcome to TestMaker</H2>
+	  <HR>
+	  <P class="first">TestMaker is a solution for making individual based multichoice type assessment.</p>
+	  <p>The individual assigned a test can just login and take the test.</p>
+	</div>
+      </section>
+      <section id="my_project">
+      </section>
+      <section id="features" class="about">
+        <h2>Record Performances</h2>
+	<div class="grade">
+	  <img src="images/grade.png">
+	  <p>TestMaker helps manage records of the performance of the individual student</p>
+	</div>
+	<hr class="divider">
+        <h2>Make Test</h2>
+	<div class="test">
+	  <img src="images/test.png">
+	  <p>TestMaker helps make individual based multichoice test question</p>
+	</div>
+	<hr class="divider">
+        <h2>Take Test</h2>
+	<div class="takeTest">
+	  <img src="images/takeTest.png">
+	  <p>TestMaker administers the examination to the assigned students.</p>
+	</div>
+      </section>
+      <section id="about" class="about">
+	<h2>About</h2>
+	<p>TestMaker was inspired from the need to save the time cost of sorting, marking and recording examination after administering it. Allowing for easy monitoring of students progress.</p>
+	<p>As a teacher looking trying transistion to tech, my interest is to build solutions for academics challenges.</p>
+	<p>This is my portfolio project for ALX software engineering school</p>
+	<p>Find the Github repository <a href="https://github.com/ZIHCO/TestMaker_v2.git" target="_blank">here</a></p>
+	<p>This project is solo project, done by Chizoba ODINAKA.</p>
+	<p>Find me on these socials:</p>
+	<div class="profile">
+	  <a href="#" class="fa fa-twitter"></a>
+	  <a href="#" class="fa fa-github"></a>
+	  <a href="#" class="fa fa-linkedin"></a>
+	</div>
+      </section>
     </main>
     <footer>
       <address>
