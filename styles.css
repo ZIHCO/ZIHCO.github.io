@@ -260,3 +260,14 @@ nav > ul > li {
 .profile {
 	text-align: center;
 }
+
+#my_project {
+	margin-top: 50px;
+  	display: flex;
+  	justify-content: center;
+}
+
+#my_project > iframe {
+  max-width: 560px;
+  width: 100%;
+}
