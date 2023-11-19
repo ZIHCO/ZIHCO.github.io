@@ -261,13 +261,19 @@ nav > ul > li {
 	text-align: center;
 }
 
-#my_project {
+.project {
 	margin-top: 50px;
   	display: flex;
   	justify-content: center;
 }
 
-#my_project > iframe {
+.project > iframe {
   max-width: 560px;
   width: 100%;
+}
+
+#my_project h2 {
+	text-align: center;
+	padding-top: 10px;
+	font-size: 2rem;
 }
